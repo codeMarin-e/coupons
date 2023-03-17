@@ -1,0 +1,30 @@
+{
+    "name": "marinar/coupons",
+    "description": "Coupons module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\Coupons\\": "src/"
+        }
+    },
+    "require": {
+        "marinar/marinar": "*",
+        "marinar/discountable": "*",
+        "marinar/activiable": "*",
+        "marinar/orders": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": true,
+            "plugin": false,
+            "addon_to": false
+        }
+    }
+}
